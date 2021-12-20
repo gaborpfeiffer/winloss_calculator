@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/winloss_calculator/static/css/main.20433278.css",
-    "main.js": "/winloss_calculator/static/js/main.33bccac8.js",
+    "main.js": "/winloss_calculator/static/js/main.cd10c188.js",
     "index.html": "/winloss_calculator/index.html",
     "main.20433278.css.map": "/winloss_calculator/static/css/main.20433278.css.map",
-    "main.33bccac8.js.map": "/winloss_calculator/static/js/main.33bccac8.js.map"
+    "main.cd10c188.js.map": "/winloss_calculator/static/js/main.cd10c188.js.map"
   },
   "entrypoints": [
     "static/css/main.20433278.css",
-    "static/js/main.33bccac8.js"
+    "static/js/main.cd10c188.js"
   ]
 }
