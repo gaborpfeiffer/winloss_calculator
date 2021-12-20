@@ -16,7 +16,7 @@ function App() {
 						<AppState>
 							<AppNavigation />
 							<Routes>
-								<Route path="/" element={<CalculatorPage />} />
+								<Route path="/calculator" element={<CalculatorPage />} />
 								<Route path="strategies" element={<StrategiesPage />} />
 							</Routes>
 						</AppState>
