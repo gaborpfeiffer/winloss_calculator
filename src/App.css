@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppContent {
+ width: 600px;
+ height: 800px;
+ background-color: #1A374D;
+ color: white;
+ padding: 0px 10px 10px 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navigation span {
+	background-color: #6998AB;
+	width: 100%;
+	padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation span:hover {
+ background-color: #B1D0E0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-left-radius {
+	border-bottom-left-radius: 10px;
+}
+
+.bottom-right-radius {
+	border-bottom-right-radius: 10px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.navigation a:hover {
+	color: white;
+}
+
+.strategyInfo {
+	display: flex;
+	justify-content: space-around;
+}
+
+.strategyInfo span {
+	font-size: 30px;
+}
+
+.calcResultItem {
+	display: flex;
+	flex-direction: column;
+}
+
+.calcResultItem span {
+	font-size: 40px;
 }
