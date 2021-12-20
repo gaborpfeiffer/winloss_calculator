@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/winloss_calculator/static/css/main.20433278.css",
+    "main.js": "/winloss_calculator/static/js/main.33bccac8.js",
+    "index.html": "/winloss_calculator/index.html",
+    "main.20433278.css.map": "/winloss_calculator/static/css/main.20433278.css.map",
+    "main.33bccac8.js.map": "/winloss_calculator/static/js/main.33bccac8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20433278.css",
+    "static/js/main.33bccac8.js"
+  ]
+}
