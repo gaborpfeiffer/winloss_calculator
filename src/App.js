@@ -16,8 +16,8 @@ function App() {
 						<AppState>
 							<AppNavigation />
 							<Routes>
-								<Route path="winloss_calculator/calculator" element={<CalculatorPage />} />
-								<Route path="winloss_calculator/strategies" element={<StrategiesPage />} />
+								<Route path="#/winloss_calculator/calculator" element={<CalculatorPage />} />
+								<Route path="#/winloss_calculator/strategies" element={<StrategiesPage />} />
 							</Routes>
 						</AppState>
 					</BrowserRouter>
