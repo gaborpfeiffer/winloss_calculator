@@ -7,8 +7,11 @@ const AppNavigation = () => {
 			<span className="bottom-left-radius">
 				<Link to="winloss_calculator/calculator" >TP/SL calculator</Link>
 			</span>
-			<span className="bottom-right-radius">
+			<span>
 				<Link to="winloss_calculator/strategies">Strategies</Link>
+			</span>
+			<span className="bottom-right-radius">
+				<Link to="winloss_calculator/winrate">Winrate</Link>
 			</span>
 		</div>
 	)

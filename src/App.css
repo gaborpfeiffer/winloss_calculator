@@ -41,7 +41,7 @@ width: 100%;
 .navigation a {
 	text-decoration: none;
 	color: white;
-	font-size: 25px;
+	font-size: 20px;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -67,4 +67,8 @@ width: 100%;
 
 .calcResultItem span {
 	font-size: 40px;
+}
+
+.winrateResult {
+	font-size: 50px;
 }

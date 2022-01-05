@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import AppNavigation from './components/AppNavigation'
 import CalculatorPage from './pages/CalculatorPage'
 import StrategiesPage from './pages/StrategiesPage'
+import WinratePage from './pages/WinratePage'
 import { AppState } from './AppContext'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 							<Routes>
 								<Route path="winloss_calculator/calculator" element={<CalculatorPage />} />
 								<Route path="winloss_calculator/strategies" element={<StrategiesPage />} />
+								<Route path="winloss_calculator/winrate" element={<WinratePage />} />
 							</Routes>
 						</AppState>
 					</BrowserRouter>
