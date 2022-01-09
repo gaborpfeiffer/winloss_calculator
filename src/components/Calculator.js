@@ -18,7 +18,7 @@ const Calculator = () => {
 	}
 
 	const handleChange = e => {
-		setEntryPrice(e.target.value)
+		setEntryPrice(e.target.value.replace(',', ''))
 	}
 
 	const calcLong = () => {
@@ -54,7 +54,7 @@ const Calculator = () => {
 					<Form>
 						<Form.Group>
 							<Form.Label>Entry price</Form.Label>
-							<Form.Control onChange={handleChange} type="number" placeholder="Enter entry price"></Form.Control>
+							<Form.Control onChange={handleChange} type="text" placeholder="Enter entry price"></Form.Control>
 						</Form.Group>
 					</Form>
 					<div className="mt-3 mb-3 d-flex justify-content-around">
